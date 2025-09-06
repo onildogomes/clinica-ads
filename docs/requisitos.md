@@ -19,3 +19,17 @@ RU9 - O sistema deve registrar pagamentos e formas deles
 RF9 - O sistema deve permitir o registro de pagamentos com diferentes formas: dinheiro, cartão, convênio, etc
 RU10 - O gestor quer controlar permissões de usuários
 RF10 - O sistema deve permitir o cadastro de usuários com perfis e permissões diferentes (recepcionista, médico etc)
+
+#Requisitos Não Funcionais:
+RNF1 - O sistema deve responder às ações do usuário em até 2 segundos para garantir agilidade no atendimento
+RNF2 - O sistema deve estar disponível pelo menos 99,5% do tempo, com no máximo 2 horas de indisponibilidade por mês
+RNF3 - O sistema deve exigir autenticação por usuário e senha, com controle de permissões para acesso a dados sensíveis
+RNF4 - O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Edge) e dispositivos móveis
+RNF5 - O sistema deve realizar backups automáticos diários e permitir recuperação rápida dos dados em caso de falhas
+
+#Requisitos de Software
+RS1 - O software deve permitir cadastro, edição, exclusão e consulta de pacientes, médicos, agendamentos e atendimentos
+RS2 - Deve permitir envio automático de notificações (SMS, e-mail) para pacientes sobre consultas e exames
+RS3 - A interface deve ser responsiva, acessível e compatível com diferentes dispositivos (desktop, tablets, celulares)
+RS4 - Deve ser compatível com os sistemas operacionais mais usados (Windows, Linux) e navegadores modernos
+RS5 - Deve realizar backups periódicos automáticos e permitir recuperação rápida dos dados em caso de falhas
